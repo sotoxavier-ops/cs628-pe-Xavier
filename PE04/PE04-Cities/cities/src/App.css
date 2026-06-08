@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #252525;
+  color: white;
+  text-align: center;
+  padding: 35px 20px 25px;
+}
+
+.header h1 {
+  margin: 0 0 30px;
+  font-size: 34px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+nav a.active {
+  background-color: #0d6efd;
+  border-radius: 5px;
+}
+
+.main-content {
+  padding: 25px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 6px;
+  padding: 25px;
+  max-width: 850px;
+  margin: 0 auto;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+  font-size: 32px;
+  margin-top: 0;
+}
+
+.city-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.city-list li {
+  margin: 12px 0;
+}
+
+.city-list a {
+  color: #4b0082;
+  font-size: 18px;
+}
+
+.city-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 450px;
+}
+
+.city-form label {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.city-form input,
+.city-form textarea {
+  margin-top: 5px;
+  padding: 9px;
+  border: 1px solid #999999;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.city-form textarea {
+  min-height: 80px;
+}
+
+button {
+  width: 120px;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #084298;
+}
+
+.city-details {
+  margin-top: 25px;
+  padding-top: 10px;
+}
+
+.city-details h2 {
+  font-size: 28px;
+}
