@@ -1,0 +1,17 @@
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.container {
+  max-width: 900px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+}
